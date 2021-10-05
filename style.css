@@ -1,8 +1,29 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: underline;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #section{
     display: block;
     border: solid 2px black;
-    text-align: center;
-    background-color: rgb(211, 150, 37);
+    background-color: black;
+    margin: auto 2rem;
+    /* background-color: rgb(211, 150, 37); */
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -10,15 +31,26 @@
 #body{
     border: solid 2px black;
     margin: 2rem auto;
-    width: 50%;
+    width: 70%;
+    background-color: black;
+    color: wheat;
+    border-radius: 25px;
   
 }
 .body-items{
     margin: 2rem ;
 }
 a{
-    border: solid 5px rgb(211, 150, 37);
+    /* border: solid 5px rgb(211, 150, 37); */
     background-color: black;
     color: white;
     border-radius: 25px;
+}
+p{
+    /* border: solid 5px rgb(236, 179, 73); */
+}
+img{
+    display: block;
+    margin: auto;
+    
 }
